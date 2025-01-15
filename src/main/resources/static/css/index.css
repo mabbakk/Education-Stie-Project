@@ -1,0 +1,123 @@
+/* Reset CSS */
+@import url("https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css");
+/* font awesome */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css');
+/* Montserrat Google-Font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+KR:wght@100..900&display=swap');
+/* Noto Sans Korean Google-Font */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+
+
+
+
+/* styles.css */
+body {
+    font-family: "Noto Sans KR", sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    height: 150vh;
+}
+
+
+main {
+    height: 100vh;
+}
+
+
+header {
+    border: 2px;
+    background: #a47864;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+    padding-top: 30px;
+}
+
+header .logo {
+    font-family: "Montserrat", sans-serif;;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #f4f4f4;
+}
+
+header .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+header .nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background: #f4f4f4;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hero-content .btn {
+    display: inline-block;
+    background: #007BFF;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.section {
+    padding: 2rem 0;
+}
+
+.section .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.course-list {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.course-item {
+    background: #f4f4f4;
+    padding: 1rem;
+    border-radius: 5px;
+    flex: 1 1 calc(33.333% - 1rem);
+    box-sizing: border-box;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+footer .container {
+    margin: 0 1rem;
+}
+
+footer .text {
+    color: #f1f1f1;
+}
