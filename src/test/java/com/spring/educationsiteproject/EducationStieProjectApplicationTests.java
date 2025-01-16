@@ -1,4 +1,4 @@
-package com.spring.educationstieproject;
+package com.spring.educationsiteproject;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
