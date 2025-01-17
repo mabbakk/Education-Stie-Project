@@ -7,8 +7,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>회원가입 - EDUM</title>
-    <link rel="stylesheet" href="/css/index.css">
-    <link rel="stylesheet" href="/css/signup.css">
+    <link rel="stylesheet" href="/css/pages/signup.css">
+    <script src="/js/signup.js" defer></script>
 </head>
 <body>
 <header>
@@ -24,17 +24,24 @@
             <hr>
         </div>
 
-        <form>
-            <label for="username">성함:</label>
-            <input type="text" id="username" name="username" required>
+        <form class="auth-form" novalidate>
+            <div class="form-field">
+                <label for="username">Name :</label>
+                <input type="text" id="username" name="name" required>
+            </div>
 
-            <label for="email">이메일:</label>
-            <input type="email" id="email" name="email" required>
+            <div class="form-field">
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+            </div>
 
-            <label for="password">비밀번호:</label>
-            <input type="password" id="password" name="password" required>
+            <div class="form-field">
+                <label for="password">Password :</label>
+                <input type="password" id="password" name="password" required>
+            </div>
 
-            <button type="submit">회원가입</button>
+
+            <button type="submit" class="auth-button">회원가입</button>
         </form>
     </div>
 </section>

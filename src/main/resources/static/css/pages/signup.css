@@ -1,0 +1,86 @@
+@import '../components/form.css';
+@import '../index.css';
+
+/* 회원가입 상단 타이틀*/
+.title {
+    border: 2px;
+    padding: 4rem;
+    /*display: flex;*/
+}
+
+
+.title h2 {
+    /*background: lightgray;*/
+    font-size: 1.5rem;
+    margin-left: 10px;
+    padding-bottom: 10px;
+}
+
+
+/* 회원가입 폼 스타일 */
+.auth-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 50px;
+    /*border: 1px solid #ccc;*/
+    /*border-radius: 5px;*/
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.auth-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+.auth-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.auth-form input:focus {
+    border-color: #007BFF;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.auth-form .auth-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #888888;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.auth-form .auth-button:hover {
+    background-color: #0056b3;
+}
+
+
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+footer .container {
+    margin: 0 1rem;
+}
+
+footer .text {
+    color: #f1f1f1;
+}

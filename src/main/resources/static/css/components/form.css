@@ -1,4 +1,4 @@
-
+@import "../components/form.css";
 
 /* 회원가입 상단 타이틀*/
 .title {
@@ -7,9 +7,6 @@
     /*display: flex;*/
 }
 
-hr {
-    /*background: #888888;*/
-}
 
 .title h2 {
     /*background: lightgray;*/
@@ -20,7 +17,7 @@ hr {
 
 
 /* 회원가입 폼 스타일 */
-form {
+.auth-form {
     max-width: 400px;
     margin: 0 auto;
     padding: 50px;
@@ -30,14 +27,14 @@ form {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-form label {
+.auth-form label {
     display: block;
     margin-bottom: 8px;
     font-weight: bold;
     color: #333;
 }
 
-form input {
+.auth-form input {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
@@ -47,13 +44,24 @@ form input {
     font-size: 16px;
 }
 
-form input:focus {
+.auth-form input:focus {
     border-color: #007BFF;
     outline: none;
     box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
 }
 
-form button {
+.form-field.error input {
+    border-color: #ed4956;
+}
+
+.error-message {
+    color: #ed4956;
+    font-size: 12px;
+    margin: 4px 0;
+    display: block;
+}
+
+.auth-form .auth-button {
     width: 100%;
     padding: 10px;
     background-color: #888888;
@@ -65,9 +73,11 @@ form button {
     transition: background-color 0.3s;
 }
 
-form button:hover {
+.auth-form .auth-button:hover {
     background-color: #0056b3;
 }
+
+
 
 footer {
     background: #333;
